@@ -30,7 +30,7 @@ const CryptoPage = () => {
     setLoading(true);
     try {
       const response = await fetch(
-        "https://coinranking1.p.rapidapi.com/coins?limit=12",
+        "https://coinranking1.p.rapidapi.com/coins?limit=6",
         {
           method: "GET",
           headers: {
@@ -55,7 +55,7 @@ const CryptoPage = () => {
 
   useEffect(() => {
     fetchCrypto();
-    const interval = setInterval(fetchCrypto, 60000);
+    const interval = setInterval(fetchCrypto, 900000);
     return () => clearInterval(interval);
   }, []);
 
