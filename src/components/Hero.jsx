@@ -159,7 +159,7 @@ const Hero = () => {
         ))}
       </div>
 
-      {/* Progress Bar */}
+      {/* Progress Bar  */}
       <div className="absolute bottom-0 left-0 right-0 h-1 bg-white/10 z-20">
         <div 
           className="h-full bg-gradient-to-r from-blue-500 to-purple-500 transition-all duration-7000 ease-linear"
@@ -167,7 +167,7 @@ const Hero = () => {
         ></div>
       </div>
 
-      {/* Decorative Elements */}
+     
       <div className="absolute top-0 left-0 w-full h-full pointer-events-none overflow-hidden">
         <div className="absolute -top-40 -right-40 w-80 h-80 bg-gradient-to-br from-blue-500/20 to-purple-500/20 rounded-full blur-3xl animate-pulse"></div>
         <div className="absolute -bottom-40 -left-40 w-80 h-80 bg-gradient-to-br from-cyan-500/20 to-blue-500/20 rounded-full blur-3xl animate-pulse delay-1000"></div>
