@@ -41,7 +41,7 @@ const Team = () => {
     },
     {
       name: "Anjali Singh",
-      role: "Project Manager",
+      role: "Project handler",
       image: "https://images.pexels.com/photos/3756679/pexels-photo-3756679.jpeg?auto=compress&cs=tinysrgb&w=400&h=400&fit=crop",
       bio: "Experienced project manager ensuring smooth delivery of complex software projects.",
       specialty: "Project Leadership",
