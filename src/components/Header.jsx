@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { Menu, X, Code, Sparkles, ChevronDown, Zap, Globe, Shield } from 'lucide-react';
+import { Menu, X, Code, Sparkles, Zap, Globe } from 'lucide-react';
 import { useNavigate } from 'react-router-dom';
 
 const Header = () => {
